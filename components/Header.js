@@ -8,13 +8,13 @@ export function Header() {
   return (
     <header className="sticky top-0 z-10 border-b border-line bg-bg/90 px-6 py-4 backdrop-blur-sm md:px-10">
       <div className="mx-auto flex max-w-[1040px] items-baseline justify-between gap-8 max-[720px]:flex-wrap">
-        <a href="#home" className="font-serif text-[1.15rem] tracking-tight text-ink no-underline">
+        <a href="#home" className="font-serif text-[1.4rem] tracking-tight text-ink no-underline">
           HybridSpan
         </a>
         <div className="flex items-baseline gap-8 max-[720px]:w-full max-[720px]:justify-between">
           <nav
             aria-label="Primary"
-            className="flex flex-wrap items-baseline gap-5 text-[0.88rem] text-muted md:gap-6"
+            className="flex flex-wrap items-baseline gap-5 text-[1.05rem] text-muted md:gap-6"
           >
           <a className="text-muted no-underline hover:text-ink" href="#profile">
             {t.navProfile}
@@ -29,7 +29,7 @@ export function Header() {
             {t.navContact}
           </a>
           </nav>
-          <div className="flex items-baseline gap-1 font-serif text-[0.82rem] tracking-wide" role="group" aria-label="Language">
+          <div className="flex items-baseline gap-1 font-serif text-[1rem] tracking-wide" role="group" aria-label="Language">
           <button
             type="button"
             aria-pressed={lang === "en"}

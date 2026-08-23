@@ -57,11 +57,11 @@ export function ContactForm() {
   }
 
   const field =
-    "mb-6 w-full rounded-none border-0 border-b border-line bg-transparent px-0 py-2.5 text-[1rem] text-ink outline-none placeholder:text-muted/60 focus:border-accent";
+    "mb-6 w-full rounded-none border-0 border-b border-line bg-transparent px-0 py-2.5 text-[1.15rem] text-ink outline-none placeholder:text-muted/60 focus:border-accent";
 
   return (
     <form className="relative mt-10 max-w-[32rem]" noValidate onSubmit={onSubmit}>
-      <label className="mb-1 block text-[0.8rem] text-muted" htmlFor="contact-name">
+      <label className="mb-1 block text-[0.95rem] text-muted" htmlFor="contact-name">
         {t.labelName}
       </label>
       <input
@@ -74,7 +74,7 @@ export function ContactForm() {
         className={field}
       />
 
-      <label className="mb-1 block text-[0.8rem] text-muted" htmlFor="contact-email">
+      <label className="mb-1 block text-[0.95rem] text-muted" htmlFor="contact-email">
         {t.labelEmail}
       </label>
       <input
@@ -87,7 +87,7 @@ export function ContactForm() {
         className={field}
       />
 
-      <label className="mb-1 block text-[0.8rem] text-muted" htmlFor="contact-company">
+      <label className="mb-1 block text-[0.95rem] text-muted" htmlFor="contact-company">
         {t.labelCompany}
       </label>
       <input
@@ -99,7 +99,7 @@ export function ContactForm() {
         className={field}
       />
 
-      <label className="mb-1 block text-[0.8rem] text-muted" htmlFor="contact-message">
+      <label className="mb-1 block text-[0.95rem] text-muted" htmlFor="contact-message">
         {t.labelMessage}
       </label>
       <textarea
@@ -119,11 +119,11 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={sending}
-        className="mt-2 cursor-pointer border-0 border-b border-accent bg-transparent px-0 py-1 font-serif text-[1.05rem] text-ink disabled:cursor-not-allowed disabled:opacity-50"
+        className="mt-2 cursor-pointer border-0 border-b border-accent bg-transparent px-0 py-1 font-serif text-[1.25rem] text-ink disabled:cursor-not-allowed disabled:opacity-50"
       >
         {sending ? t.sending : t.send}
       </button>
-      <p className="min-h-[1.4em] text-[0.88rem] text-muted" role="status" aria-live="polite">
+      <p className="min-h-[1.4em] text-[1rem] text-muted" role="status" aria-live="polite">
         {status}
       </p>
     </form>

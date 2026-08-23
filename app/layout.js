@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${sans.variable} ${serif.variable} ${jp.variable} m-0 bg-bg font-sans text-[17px] leading-[1.65] text-ink antialiased`}
+        className={`${sans.variable} ${serif.variable} ${jp.variable} m-0 bg-bg font-sans text-[20px] leading-[1.7] text-ink antialiased`}
       >
         <LanguageProvider>{children}</LanguageProvider>
       </body>
