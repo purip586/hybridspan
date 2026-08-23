@@ -16,7 +16,7 @@ Do not use Inc., Ltd., LLC, GmbH, or 株式会社 until a legal entity exists.
 
 ## Positioning
 
-Enterprise Cloud Transformation & Technology Solutions
+Enterprise Cloud Transformation & Security Solutions
 
 We help enterprises design and implement secure multi-cloud and hybrid-cloud solutions, and work with specialized technology partners across Japan and Asia to deliver them.
 
