@@ -10,7 +10,7 @@ export function Header() {
     <header className="sticky top-0 z-10 border-b border-line bg-bg/90 px-6 py-4 backdrop-blur-sm md:px-10">
       <div className="mx-auto flex max-w-[1040px] items-center justify-between gap-8 max-[720px]:flex-wrap">
         <a href="#home" className="shrink-0 text-ink no-underline">
-          <Wordmark className="h-7 w-auto md:h-8" />
+          <Wordmark className="h-6 w-auto md:h-7" />
         </a>
         <div className="flex items-baseline gap-8 max-[720px]:w-full max-[720px]:justify-between">
           <nav
