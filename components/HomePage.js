@@ -106,8 +106,7 @@ export function HomePage() {
               ))}
             </ul>
 
-            <p className="mt-8 text-[0.9rem] text-muted">{t.languages}</p>
-            <p className="mb-0">
+            <p className="mb-0 mt-8">
               <a href="https://www.linkedin.com/in/puripradip" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>

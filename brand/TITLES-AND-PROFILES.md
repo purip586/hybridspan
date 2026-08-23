@@ -54,7 +54,7 @@ HybridSpan は、アーキテクチャコンサルティングとソリューシ
 ## Specialization one-liner
 
 ```
-Cloud solution · Cloud security · Cloud data platforms
+Cloud solutions · Cloud security · Cloud data platforms
 ```
 
 ```
