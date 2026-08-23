@@ -9,7 +9,6 @@
   --color-accent: #c4a574;
   --color-accent-2: #d8c4a4;
   --font-sans: var(--font-sans), var(--font-jp), "Hiragino Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: var(--font-serif), "Hiragino Mincho ProN", "Yu Mincho", serif;
 }
 
 html {

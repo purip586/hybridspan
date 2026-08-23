@@ -119,7 +119,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={sending}
-        className="mt-2 cursor-pointer border-0 border-b border-accent bg-transparent px-0 py-1 font-serif text-[1.25rem] text-ink disabled:cursor-not-allowed disabled:opacity-50"
+        className="mt-2 cursor-pointer border-0 border-b border-accent bg-transparent px-0 py-1 font-sans text-[1.25rem] text-ink disabled:cursor-not-allowed disabled:opacity-50"
       >
         {sending ? t.sending : t.send}
       </button>
