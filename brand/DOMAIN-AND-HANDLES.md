@@ -42,7 +42,7 @@ Use **hybridspan** everywhere. If taken, use **hybridspanio**.
 
 | Network | Target URL | Claim |
 |---|---|---|
-| LinkedIn company (optional Stage 1) | https://www.linkedin.com/company/setup/new/ | Name: HybridSpan. Tagline: Enterprise Cloud Transformation & Technology Solutions |
+| LinkedIn company (optional Stage 1) | https://www.linkedin.com/company/setup/new/ | Name: HybridSpan. Tagline: Enterprise Cloud Transformation & Security Solutions |
 | LinkedIn personal | https://www.linkedin.com/in/puripradip/ | Headline from `TITLES-AND-PROFILES.md` |
 | X | https://x.com/i/flow/signup or Settings → username | @hybridspan |
 | GitHub org | https://github.com/account/organizations/new | hybridspan |
