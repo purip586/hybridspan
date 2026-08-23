@@ -57,11 +57,11 @@ export function ContactForm() {
   }
 
   const field =
-    "mb-2.5 rounded-[10px] border border-line bg-panel px-3 py-2.5 font-sans text-ink placeholder:text-muted/70";
+    "mb-6 w-full rounded-none border-0 border-b border-line bg-transparent px-0 py-2.5 text-[1rem] text-ink outline-none placeholder:text-muted/60 focus:border-accent";
 
   return (
-    <form className="mt-6 grid max-w-[36rem] gap-2" noValidate onSubmit={onSubmit}>
-      <label className="text-[0.92rem]" htmlFor="contact-name">
+    <form className="relative mt-10 max-w-[32rem]" noValidate onSubmit={onSubmit}>
+      <label className="mb-1 block text-[0.8rem] text-muted" htmlFor="contact-name">
         {t.labelName}
       </label>
       <input
@@ -74,7 +74,7 @@ export function ContactForm() {
         className={field}
       />
 
-      <label className="text-[0.92rem]" htmlFor="contact-email">
+      <label className="mb-1 block text-[0.8rem] text-muted" htmlFor="contact-email">
         {t.labelEmail}
       </label>
       <input
@@ -87,7 +87,7 @@ export function ContactForm() {
         className={field}
       />
 
-      <label className="text-[0.92rem]" htmlFor="contact-company">
+      <label className="mb-1 block text-[0.8rem] text-muted" htmlFor="contact-company">
         {t.labelCompany}
       </label>
       <input
@@ -99,16 +99,16 @@ export function ContactForm() {
         className={field}
       />
 
-      <label className="text-[0.92rem]" htmlFor="contact-message">
+      <label className="mb-1 block text-[0.8rem] text-muted" htmlFor="contact-message">
         {t.labelMessage}
       </label>
       <textarea
         id="contact-message"
         name="message"
-        rows={6}
+        rows={5}
         required
         placeholder={t.phMessage}
-        className={field}
+        className={`${field} resize-y`}
       />
 
       <p className="absolute -left-[9999px] h-0 overflow-hidden" aria-hidden="true">
@@ -119,11 +119,11 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={sending}
-        className="justify-self-start rounded-full border-0 bg-accent px-5 py-3 font-semibold text-white disabled:cursor-not-allowed disabled:opacity-60"
+        className="mt-2 cursor-pointer border-0 border-b border-accent bg-transparent px-0 py-1 font-serif text-[1.05rem] text-ink disabled:cursor-not-allowed disabled:opacity-50"
       >
         {sending ? t.sending : t.send}
       </button>
-      <p className="min-h-[1.4em] text-[0.9rem] text-muted" role="status" aria-live="polite">
+      <p className="min-h-[1.4em] text-[0.88rem] text-muted" role="status" aria-live="polite">
         {status}
       </p>
     </form>
