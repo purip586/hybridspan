@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #07131f;
+  --color-panel: #0d2236;
+  --color-line: #1e3d5a;
+  --color-ink: #e8f1f8;
+  --color-muted: #9bb3c7;
+  --color-accent: #3d8fd4;
+  --color-accent-2: #7ec8e3;
+  --font-sans: "Segoe UI", "Hiragino Sans", "Noto Sans JP", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(1200px 500px at 10% -10%, #14344f 0%, #07131f 55%);
+}
