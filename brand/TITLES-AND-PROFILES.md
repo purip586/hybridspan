@@ -54,11 +54,11 @@ HybridSpan は、アーキテクチャコンサルティングとソリューシ
 ## Specialization one-liner
 
 ```
-Cloud security · Hybrid networking · Snowflake & data platforms · Terraform
+Cloud solution · Cloud security · Cloud data platforms
 ```
 
 ```
-クラウドセキュリティ · ハイブリッドネットワーク · Snowflake／データ基盤 · Terraform
+クラウドソリューション · クラウドセキュリティ · クラウドデータ基盤
 ```
 
 ## What not to write

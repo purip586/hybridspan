@@ -6,7 +6,7 @@ import { useLanguage } from "@/lib/language";
 
 function SectionLabel({ children }) {
   return (
-    <p className="mb-3 font-sans text-[0.72rem] font-medium uppercase tracking-[0.18em] text-muted">{children}</p>
+    <p className="mb-3 font-sans text-[0.72rem] font-medium tracking-[0.12em] text-muted">{children}</p>
   );
 }
 
@@ -30,6 +30,7 @@ export function HomePage() {
               {t.heroTitle}
             </h1>
             <p className="m-0 max-w-[38rem] text-[1.05rem] text-muted">{t.heroLead}</p>
+            <p className="mt-4 mb-0 max-w-[38rem] text-[0.95rem] text-accent-2">{t.tagline}</p>
             <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-3">
               <a href="#profile" className="text-[0.95rem] text-ink no-underline underline decoration-accent decoration-1 underline-offset-[6px]">
                 {t.ctaAbout}
@@ -43,7 +44,6 @@ export function HomePage() {
             <p className="m-0 font-serif text-[1.45rem] leading-tight">Pradip Puri</p>
             <p className="mt-2 mb-0 text-[0.95rem] text-accent-2">{t.role}</p>
             <p className="mt-3 mb-0 text-[0.9rem] leading-relaxed text-muted">{t.spec}</p>
-            <p className="mt-5 mb-0 text-[0.9rem] text-muted">{t.profileLocation}</p>
           </aside>
         </section>
 

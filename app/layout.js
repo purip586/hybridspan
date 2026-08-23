@@ -22,9 +22,9 @@ const jp = Noto_Sans_JP({
 });
 
 export const metadata = {
-  title: "HybridSpan — Cloud architecture practice, Tokyo",
+  title: "HybridSpan — Enterprise Cloud Transformation & Security Solutions",
   description:
-    "Architecture practice of Pradip Puri, Founder & Cloud Solutions Architect. Secure multi-cloud and hybrid-cloud design on AWS and Azure.",
+    "Secure multi-cloud and hybrid-cloud transformation for enterprises. Led by Pradip Puri, Founder & Cloud Solutions Architect.",
   icons: { icon: "/logo.svg" },
 };
 
