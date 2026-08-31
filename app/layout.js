@@ -21,10 +21,7 @@ export const metadata = {
   description:
     "Secure multi-cloud and hybrid-cloud transformation for enterprises. Led by Pradip Puri, Founder & Cloud Solutions Architect.",
   icons: {
-    icon: [
-      { url: "/logo.svg", type: "image/svg+xml" },
-      { url: "/logo.png", sizes: "512x512", type: "image/png" },
-    ],
+    icon: [{ url: "/logo.png", sizes: "512x512", type: "image/png" }],
     apple: "/logo.png",
   },
 };
