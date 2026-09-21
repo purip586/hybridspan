@@ -17,7 +17,7 @@ const jp = Noto_Sans_JP({
 });
 
 export const metadata = {
-  title: "HybridSpan — Cloud Solution Architect & Cloud Security",
+  title: "HybridSpan — Cloud Solution & Cloud Security is Our Job",
   description:
     "Overall enterprise cloud solutions and cloud security on AWS, Azure and hybrid. Led by Pradip Puri, Founder & Cloud Solutions Architect.",
   icons: {
