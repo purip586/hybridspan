@@ -133,21 +133,6 @@ export function HomePage() {
           </div>
         </section>
 
-        <section id="network" className="mt-20 grid gap-10 border-t border-line pt-20 md:grid-cols-[9rem_1fr] md:gap-14">
-          <SectionLabel>{t.partnersTitle}</SectionLabel>
-          <div>
-            <p className="mt-0 max-w-[40rem] text-muted">{t.partnersIntro}</p>
-            <ul className="m-0 mt-8 list-none p-0">
-              {t.partners.map((partner) => (
-                <li key={partner.region} className="grid gap-1 border-t border-line py-5 sm:grid-cols-[14rem_1fr] sm:gap-8">
-                  <strong className="font-medium">{partner.region}</strong>
-                  <span className="text-muted">{partner.detail}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
-
         <section id="contact" className="mt-20 grid gap-10 border-t border-line pt-20 md:grid-cols-[9rem_1fr] md:gap-14">
           <SectionLabel>{t.contactTitle}</SectionLabel>
           <div>
